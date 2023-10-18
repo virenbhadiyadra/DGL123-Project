@@ -1,3 +1,9 @@
+<?php
+$pageTitle = 'Home';
+include('header.php');
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,18 +13,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Recipes.in</h1>
-        <nav>
-            <ul>
-                <li><a href="index.php">Home</a></li>
-                <li><a href="trending.php">Trending</a></li>
-                <li><a href="#">Categories</a></li>
-                <li><a href="#">Search</a></li>
-                <li><a href="register.php">Register</a></li>
-            </ul>
-        </nav>
-    </header>
+
     <main>
         <!-- Display Trending Recipes -->
         <section id="trending">

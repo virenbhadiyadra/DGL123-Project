@@ -1,17 +1,14 @@
 <?php
-// Include your database connection code here
-// Example: require_once 'db_connection.php';
+$pageTitle = 'Home';
+include('header.php');
+?>
+<?php
 
-// Fetch a list of available recipe categories from your database
-// Example SQL: SELECT DISTINCT category FROM recipes
-// Make sure to sanitize and validate the data as needed
 
 $categories = [
-    // Example categories data
     'Breakfast',
     'Lunch',
     'Dinner',
-    // Add more categories as needed
 ];
 ?>
 
@@ -24,18 +21,7 @@ $categories = [
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Recipes.in</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="trending.php">Trending</a></li>
-                <li><a href="categories.php">Categories</a></li>
-                <li><a href="#">Search</a></li>
-                <li><a href="register.php">Register</a></li>
-            </ul>
-        </nav>
-    </header>
+
     <main>
         <section id="recipe-categories">
             <h2>Recipe Categories</h2>

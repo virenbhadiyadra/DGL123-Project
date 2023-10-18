@@ -1,18 +1,6 @@
 <?php
-// Include your database connection code here
-// Example: require_once 'db_connection.php';
-
-$searchResults = [];
-
-if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['search'])) {
-    // Get the user's search query and perform a search in your database
-    // Example SQL: SELECT * FROM recipes WHERE title LIKE :searchTerm OR description LIKE :searchTerm
-    // Make sure to use prepared statements and sanitize the input
-
-    // Fetch and store search results in the $searchResults array
-    // Example: $searchResults = $stmt->fetchAll(PDO::FETCH_ASSOC);
-}
-
+$pageTitle = 'Home';
+include('header.php');
 ?>
 
 <!DOCTYPE html>
@@ -24,18 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['search'])) {
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Recipes.in</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="trending.php">Trending</a></li>
-                <li><a href="categories.php">Categories</a></li>
-                <li><a href="search.php">Search</a></li>
-                <li><a href="register.php">Register</a></li>
-            </ul>
-        </nav>
-    </header>
+
     <main>
         <section id="search-recipes">
             <h2>Search Recipes</h2>
