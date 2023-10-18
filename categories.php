@@ -32,8 +32,9 @@ $categories = [
             </ul>
         </section>
     </main>
-    <footer>
-        <p>&copy; 2023 Recipes.in</p>
-    </footer>
+
 </body>
 </html>
+<?php
+include('footer.php');
+?>
