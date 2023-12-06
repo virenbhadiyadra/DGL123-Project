@@ -190,3 +190,67 @@ button:hover {
     align-items: center;
     justify-content: center;
 }
+
+/* Add this to your existing CSS or create a new CSS file */
+
+.content-recipe {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: 48%;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.card h2 {
+    padding: 10px;
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.card p {
+    padding: 10px;
+    margin: 0;
+    font-size: 1em;
+}
+/* about-us.css */
+
+.about-us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-content {
+    flex: 1;
+    max-width: 60%;
+}
+
+.right-content {
+    flex: 1;
+    max-width: 40%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Optional: Add border radius to the image */
+}
