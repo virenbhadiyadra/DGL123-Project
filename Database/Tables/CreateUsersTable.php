@@ -3,9 +3,9 @@ require_once('Connection.php');
 
 $sql = "CREATE TABLE IF NOT EXISTS users (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(255) NOT NULL,
-    email VARCHAR(255) NOT NULL UNIQUE,
-    password VARCHAR(255) NOT NULL,
+    name VARCHAR(60) NOT NULL,
+    email VARCHAR(60) NOT NULL UNIQUE,
+    password VARCHAR(60) NOT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 )";
 
